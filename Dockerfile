@@ -6,6 +6,7 @@ COPY index.html /usr/share/nginx/html/
 # Copy the CSS, JS, and image folders to their respective locations in Nginx
 COPY css/style.css /usr/share/nginx/html/css/
 COPY js/script.js /usr/share/nginx/html/js/
+COPY image/ /usr/share/nginx/html/image/
 
 
 # Expose port 80 for the web server
